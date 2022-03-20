@@ -78,7 +78,6 @@ jobs:
         passphrase: ${{ secrets.PASSPHRASE }} # Если ваш ssh-ключ защищён фразой-паролем
         script: |
           # Выполняет pull образа с DockerHub
-          
           #sudo docker pull <имя-пользователя>/<имя-репозитория>
           sudo docker pull kolosovdv/16sprint
           #остановка всех контейнеров
